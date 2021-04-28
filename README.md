@@ -1,20 +1,70 @@
-# Egplus-code-challenge
-## EG+ Coding Challenge
+# Getting Started with Create React App
 
-### Task: 
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Your challenge is to use the JSON returned from the provided API URL and create an interface which presents the data in a clear manner. This API returns a selection of 15 random users, each with a variety of properties. You may use any tools or frameworks you think are suitable to complete this task. 
+## Available Scripts
 
-Please use the user JSON to construct an HTML table with the following columns:  `Name`, `Date of Birth`, `State` and `Country`. Upon clicking a user's row, display a modal which shows the user's picture and contact information (email, phone/cell numbers). 
+In the project directory, you can run:
 
-API URL to use: https://randomuser.me/api/?results=15&exc=login,info,registered,id&noinfo
+### `yarn start`
 
-### What we are looking for: 
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-- Clean and organized code (good variable naming, formatting, etc.)
-- Responsive design 
-- Browser compatibility 
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-The appearance and functionality of the site is up to you, and please spend no more than 2-3 hours on this task. Feel free to reach out with any questions or further clarification! 
+### `yarn test`
 
-Upon completion, please return a copy of your source code and a preview link of the site you've created. You are welcome to use any hosting you like, such as [surge.sh](https://surge.sh/), S3, github pages, etc. 
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `yarn build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `yarn eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `yarn build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
