@@ -2,15 +2,23 @@ import {useState} from 'react'
 import UserDetailsModal from './UserDetailsModal'
 const UserTable=(props)=>{
     return(
-        <tr>
+        <tr className='table-row'>
             <td>
-                <a href="#"onClick={()=>props.handleUserInModal(props.userIndex)}>
+                <div>
+                    <a href="#"onClick={()=>props.handleUserInModal(props.userIndex)}>
                     {props.user.name.title +" "+props.user.name.first +" "+props.user.name.last}
-                </a>
+                    </a>
+                </div>
             </td>
-            <td>{props.user.dob.age}</td>
-            <td>{props.user.location.state}</td>
-            <td>{props.user.location.country}</td> 
+            <td>
+                <div>{props.user.dob.age}</div>
+            </td>
+            <td>
+                <div>{props.user.location.state}</div>
+            </td>
+            <td>
+                <div>{props.user.location.country}</div>
+            </td> 
         </tr>
     )
 }

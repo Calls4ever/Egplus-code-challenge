@@ -31,10 +31,9 @@ const handleModalToggle=()=>{
 
   return (
     <div>
-      <h1>Hi Thanks for checking in!</h1>
-      <div>
-        <table>
-          <tr>
+      <section className="container">
+        <table className="table">
+          <tr className='table-row'>
             <th>Name</th>
             <th>Date of Birth</th>
             <th>State</th>
@@ -52,7 +51,7 @@ const handleModalToggle=()=>{
         handleModalToggle={handleModalToggle}
         user={userInModal}
         />}
-      </div>
+      </section>
       
     </div>
   );

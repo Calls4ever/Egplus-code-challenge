@@ -1,1 +1,29 @@
+.container{
+  min-width: 100%;
+  display: flex;
 
+}
+.table{
+  min-width: 100%;
+}
+.table-row{
+  min-width: 100%;
+  box-shadow: 0px 0px 2px 2px rgb(238, 233, 233);
+  
+}
+td{
+  text-align: center;
+}
+td{
+  padding: 2px;
+  font-size: 30px;
+}
+td>div{
+padding: 3px;
+}
+th{
+  font-size: 35px;
+}
+a{
+  text-decoration: lightgray;
+}
