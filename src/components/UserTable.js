@@ -1,5 +1,4 @@
-import {useState} from 'react'
-import UserDetailsModal from './UserDetailsModal'
+
 const UserTable=(props)=>{
     return(
         <tr className='table-row'>

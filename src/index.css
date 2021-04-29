@@ -70,3 +70,18 @@ a{
   margin: .5%;
   text-align: center;
 }
+
+@media(max-width: 720px){
+  td{
+    font-size: 20px;
+  }
+  th{
+    font-size: 28px;
+  }
+  .modal-user-name{
+    font-size: 30px;
+  }
+  #inner-modal-div>h3{
+    font-size: 18px;
+  }
+}
