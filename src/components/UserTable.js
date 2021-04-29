@@ -11,7 +11,7 @@ const UserTable=(props)=>{
                 </div>
             </td>
             <td>
-                <div>{props.user.dob.age}</div>
+                <div>{new Date(props.user.dob.date).toDateString()}</div>
             </td>
             <td>
                 <div>{props.user.location.state}</div>

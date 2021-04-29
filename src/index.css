@@ -27,3 +27,46 @@ th{
 a{
   text-decoration: lightgray;
 }
+#outer-modal-div{
+  background: rgba(2, 2, 2, 0.6);
+  min-height: 100vh;
+  min-width: 100%;
+  position: fixed;
+}
+#inner-modal-div{
+  position: relative;
+  margin: 10%;
+  background-color: white;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 3px 3px 15px 3px black;
+  padding: 1%;
+  border-radius: 2%;
+}
+.modal-close-button{
+  min-width: 50px;
+  min-height: 50px;
+  background-color: white;
+  border: none;
+  margin-left: 90%;
+  fill: red;
+}
+.modal-user-image{
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  border-radius: 5%;
+}
+.modal-user-name{
+  font-weight: normal;
+  text-align: center;
+  font-size: 45px;
+  margin-top: -2%;
+}
+#inner-modal-div>h3{
+  font-weight: normal;
+  font-size: 25px;
+  margin: .5%;
+  text-align: center;
+}
