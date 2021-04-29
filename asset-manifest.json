@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/egplus-code-challenge/static/css/main.66435ff7.chunk.css",
-    "main.js": "/egplus-code-challenge/static/js/main.2a7cb29f.chunk.js",
-    "main.js.map": "/egplus-code-challenge/static/js/main.2a7cb29f.chunk.js.map",
+    "main.js": "/egplus-code-challenge/static/js/main.6f21f4f1.chunk.js",
+    "main.js.map": "/egplus-code-challenge/static/js/main.6f21f4f1.chunk.js.map",
     "runtime-main.js": "/egplus-code-challenge/static/js/runtime-main.f04806ad.js",
     "runtime-main.js.map": "/egplus-code-challenge/static/js/runtime-main.f04806ad.js.map",
     "static/js/2.766854a4.chunk.js": "/egplus-code-challenge/static/js/2.766854a4.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.f04806ad.js",
     "static/js/2.766854a4.chunk.js",
     "static/css/main.66435ff7.chunk.css",
-    "static/js/main.2a7cb29f.chunk.js"
+    "static/js/main.6f21f4f1.chunk.js"
   ]
 }
